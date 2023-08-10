@@ -4,7 +4,6 @@
     "package": "useless.penguinmod.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
-        "dispatcherMixin"
     ],
     "client": [
     ],

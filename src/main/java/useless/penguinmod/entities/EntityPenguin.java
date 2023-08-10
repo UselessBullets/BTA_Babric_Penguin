@@ -1,4 +1,4 @@
-package useless.penguinmod;
+package useless.penguinmod.entities;
 
 import net.minecraft.core.entity.animal.EntityAnimal;
 import net.minecraft.core.world.World;
