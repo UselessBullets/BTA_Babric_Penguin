@@ -1,7 +1,7 @@
 package useless.config;
 
 
-import useless.examplemod.ExampleMod;
+import useless.penguinmod.PenguinMod;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.io.*;
@@ -14,7 +14,7 @@ public class ModMenuConfigManager {
 		if (file != null) {
 			return;
 		}
-		file = new File(FabricLoader.getInstance().getConfigDirectory(), ExampleMod.MOD_ID + ".json");
+		file = new File(FabricLoader.getInstance().getConfigDirectory(), PenguinMod.MOD_ID + ".json");
 	}
 
 	public static ModMenuConfig initializeConfig() {
@@ -38,10 +38,10 @@ public class ModMenuConfigManager {
 			if (file.exists()) {
 				BufferedReader br = new BufferedReader(new FileReader(file));
 
-				config = ExampleMod.GSON.fromJson(br, ModMenuConfig.class);
+				config = PenguinMod.GSON.fromJson(br, ModMenuConfig.class);
 			}
 		} catch (FileNotFoundException e) {
-			System.err.println("Couldn't load GuiLabel configuration file; reverting to defaults");
+			System.err.println("Couldn't load PenguinMod configuration file; reverting to defaults");
 			e.printStackTrace();
 		}
 	}
@@ -49,12 +49,12 @@ public class ModMenuConfigManager {
 	public static void save() {
 		prepareBiomeConfigFile();
 
-		String jsonString = ExampleMod.GSON.toJson(config);
+		String jsonString = PenguinMod.GSON.toJson(config);
 
 		try (FileWriter fileWriter = new FileWriter(file)) {
 			fileWriter.write(jsonString);
 		} catch (IOException e) {
-			System.err.println("Couldn't save GuiLabel configuration file");
+			System.err.println("Couldn't save PenguinMod configuration file");
 			e.printStackTrace();
 		}
 	}

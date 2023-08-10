@@ -1,9 +1,10 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "useless.examplemod.mixin",
+    "package": "useless.penguinmod.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+        "dispatcherMixin"
     ],
     "client": [
     ],

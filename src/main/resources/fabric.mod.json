@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
-  "version": "${version}",
+  "id": "penguinmod",
+  "version": "1.0.0",
 
   "name": "Example Mod",
   "description": "This mod aims to help new BTA modders.",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "useless.examplemod.ExampleMod"
+        "useless.penguinmod.PenguinMod"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+    "penguinmod.mixins.json"
   ],
 
   "depends": {
