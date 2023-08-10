@@ -1,0 +1,33 @@
+[01:27:47] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.7.7.0 with Fabric Loader 0.14.19-babric.1
+[01:27:47] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod examplemod uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:27:47] [ForkJoinPool-1-worker-4/WARN] (FabricLoader/Metadata) Mod modmenu uses the version $version which isn't compatible with Loader's extended semantic version format (Could not parse version number component '$version'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:27:47] [main/INFO] (FabricLoader) Loading 12 mods:
+	- aetherenabler 1.2.1
+	- examplemod ${version}
+	- fabricloader 0.14.19-babric.1+local
+	- guidebookpp 1.5.3
+	- guimod 1.1.0
+	- halplibe 2.1.1
+	- java 17
+	- minecraft 1.7.7.0
+	- modernboats 1.3.1
+	- modmenu $version
+	- steelupgrade 1.0.1
+	- zoomplus 1.0.1
+[01:27:55] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/matth/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[01:27:55] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[01:27:55] [main/WARN] (FabricLoader/Mixin) Reference map 'steelupgrade-refmap.json' for steelupgrade.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:27:56] [main/INFO] (steelupgrade) SteelUpgrade initialized.
+[01:27:56] [main/INFO] (halplibe) HalpLibe initialized.
+[01:27:56] [main/INFO] (aetherenabler) AetherEnabler initialized.
+[01:27:56] [main/INFO] (guidebookpp) Loading plugins..
+[01:27:56] [main/INFO] (guidebookpp) Loading default recipe handlers..
+[01:27:56] [main/INFO] (guidebookpp) Adding recipes for: RecipeHandlerFurnace
+[01:27:56] [main/INFO] (guidebookpp) Adding recipes for: RecipeHandlerBlastFurnace
+[01:27:56] [main/INFO] (guidebookpp) Adding recipes for: RecipeHandlerCrafting
+[01:27:56] [main/INFO] (guidebookpp) Registered 477 recipes in 3 groups
+[01:27:56] [main/INFO] (guidebookpp) Guidebook++ initialized.
+[01:27:56] [main/INFO] (guimod) guimod initialized.
+[01:27:56] [main/INFO] (modernboats) ModernBoats initialized.
+[01:27:56] [main/INFO] (zoomplus) ZoomPlus initialized.
+[01:27:56] [main/INFO] (examplemod) ExampleMod initialized.
