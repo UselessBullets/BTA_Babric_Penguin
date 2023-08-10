@@ -5,3 +5,8 @@ out/
 run/
 run-server/
 *.log
+*.log
+*.dat
+*.mcr
+*.dat_old
+*.lock
